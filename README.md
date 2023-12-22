@@ -109,6 +109,8 @@ Console.WriteLine(readonlyList.Count);
 
 [Great explanation on SO](https://stackoverflow.com/a/49115272)
 
+[Sharplab](https://sharplab.io/#v2:C4LgTgrgdgPgAgJgIwFgBQcAMACOSAsA3OugG4CGY2ANgJYDOw2AvNlAKYDu2AMg8AB5aUYAD4A3kgA02BDIDMM/AF9iadAEkASu3IATAPJRqATz6MhI0djC69Ae2Nn+LGvzXoA9J+zswYeyoAYQBlJEwANiQQbABybTsjU3NBYTFY7Ad2ejZ7JgBjR2ByYWxyTPYAM2FaYFpHbErAuIBBPT1YgDpurx9bfUdk/k62vQAKAFYASg80b2wAdUCAaxzyHPYADwAHdnzgdj10MbGUyzEp/ocnFKmR9smZkjmfCfQ8AE4xq8HnRk6gvZoMAZkA==)
+
 ## async async async (async async)
 
 ```csharp
@@ -117,7 +119,6 @@ async async async(async async) =>
 ```
 
 [Via Jared Parsons](https://twitter.com/jaredpar/status/1613615815231934468)
-
 
 [Explainer from Jared](https://gist.github.com/jaredpar/6706628bfe0098840ce453c1c71098a9)
 
