@@ -1,7 +1,7 @@
 # Fun Weird Nasty C#
 C# snippets That Make You Go Hmmm... 
 
-All snippets are linked to their original creators (or the people I found them from). I don't take any credit, just collating fun bits! Most also have [SharpLab.io](sharplab.io) links so you can see them in action yourself.
+All snippets are linked to their original creators (or the people I found them from). I don't take any credit, just collating fun bits! Most also have [SharpLab.io](https://sharplab.io/) links so you can see them in action yourself.
 
 ## Smallest C#
 
