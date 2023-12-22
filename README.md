@@ -143,8 +143,8 @@ async async async(async async) =>
 using System;
 float x = 0.4f;
 float y = 0.6f;
-Console.WriteLine((double)x + (double)y == 1);
-Console.WriteLine((float)((double)x + (double)y) == 1);
+Console.WriteLine((double)x + (double)y == 1); // False
+Console.WriteLine((float)((double)x + (double)y) == 1); // True
 ```
 
 [Via Ashley Hauck](https://twitter.com/khyperia/status/1730232117831815322)
