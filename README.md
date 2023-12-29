@@ -153,3 +153,22 @@ Console.WriteLine((float)((double)x + (double)y) == 1); // True
 
 [SharpLab](https://sharplab.io/#v2:C4LgTgrgdgPgAgJgIwFgBQAzANgewIbAAEAHoQLyEAMAdACwYDc62+RAnuVdQGyPpxIAnAAphAExwQARlgCmASlIBqQuMkyFHMhSTymaASOEsC80ROlzFhFWsub55HXqA)
 
+## Ensure `finally` with `ThreadAbort`
+
+Note this is for .NET Framework. 
+
+```csharp
+try {}
+finally
+{
+    if (!m_canceled)
+    {
+        m_canceled = true;
+        TimerQueue.Instance.DeleteTimer(this);
+    }
+}
+```
+
+[Via Roman Marusyk](https://twitter.com/MarusykRoman/status/1644002015431872514)
+
+[Documentation](https://learn.microsoft.com/en-us/dotnet/api/system.threading.thread.abort?view=net-7.0)
