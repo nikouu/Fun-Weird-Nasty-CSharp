@@ -172,3 +172,11 @@ finally
 [Via Roman Marusyk](https://twitter.com/MarusykRoman/status/1644002015431872514)
 
 [Documentation](https://learn.microsoft.com/en-us/dotnet/api/system.threading.thread.abort?view=net-7.0)
+
+## C# lunar cycle performance 
+
+An unsigned number bug in `Environment.TickCount` in a specific situation in a threadpool prevent more threads from being added to the pool.
+
+[Via Kevin Gosse](https://twitter.com/KooKiz/status/1389942946514997248)
+
+[GitHub Issue](https://github.com/dotnet/runtime/issues/51935)
