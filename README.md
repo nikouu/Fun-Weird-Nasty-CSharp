@@ -180,3 +180,11 @@ An unsigned number bug in `Environment.TickCount` in a specific situation in a t
 [Via Kevin Gosse](https://twitter.com/KooKiz/status/1389942946514997248)
 
 [GitHub Issue](https://github.com/dotnet/runtime/issues/51935)
+
+## Dynamic var global using
+
+```csharp
+global using var = dynamic;
+```
+
+[Via Jared Parsons via Immo Landwerth](https://twitter.com/terrajobst/status/1785375779179893144)
