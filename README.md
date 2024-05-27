@@ -188,16 +188,3 @@ global using var = dynamic;
 ```
 
 [Via Jared Parsons via Immo Landwerth](https://twitter.com/terrajobst/status/1785375779179893144)
-
-## Span<T>.Empty == null
-
-While `Span<T>.Empty` feels like it shouldn't be a null due to a span being a struct which is a value type, Mark Gravell explains it well with:
->Span has a custom equality operator; that's what is being used here. The operator takes a span. It also has an implicit operator that takes T[]. What you're actually asking is: is Span<T>.Empty considered equal to the span created from a null T[] - which returns: Empty 
-
-[Via Michael Rumpler](https://x.com/MRumpler/status/1642120446089854977)
-
-[Via Mark Gravell](https://x.com/marcgravell/status/1642447224301912067)
-
-## Never calls Dispose from a finalizer
-
-[Via Kevin Gosse](https://x.com/KooKiz/status/1750463285965545725)
