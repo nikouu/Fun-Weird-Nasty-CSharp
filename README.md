@@ -188,3 +188,17 @@ global using var = dynamic;
 ```
 
 [Via Jared Parsons via Immo Landwerth](https://twitter.com/terrajobst/status/1785375779179893144)
+
+## Amogus
+
+This code is C# version (definitely not as nice) of Python code that returns the "ඞ" character for the Among Us meme.
+
+```csharp
+// Python code
+// chr(sum(range(ord(min(str(not()))))))
+
+// C# version
+var amogus = (char)Enumerable.Range(0, (int)true.ToString().Min()).Sum();
+```
+
+[Via @chordbug](https://x.com/chordbug/status/1834642829919781369)
